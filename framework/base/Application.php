@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.yiiframework.com/
+ * @link http://www.yiiframework.com/
  * @copyright Copyright (c) 2008 Yii Software LLC
- * @license https://www.yiiframework.com/license/
+ * @license http://www.yiiframework.com/license/
  */
 
 namespace yii\base;
@@ -101,7 +101,7 @@ abstract class Application extends Module
     public $charset = 'UTF-8';
     /**
      * @var string the language that is meant to be used for end users. It is recommended that you
-     * use [IETF language tags](https://en.wikipedia.org/wiki/IETF_language_tag). For example, `en` stands
+     * use [IETF language tags](http://en.wikipedia.org/wiki/IETF_language_tag). For example, `en` stands
      * for English, while `en-US` stands for English (United States).
      * @see sourceLanguage
      */
@@ -126,7 +126,7 @@ abstract class Application extends Module
      */
     public $requestedRoute;
     /**
-     * @var Action|null the requested Action. If null, it means the request cannot be resolved into an action.
+     * @var Action the requested Action. If null, it means the request cannot be resolved into an action.
      */
     public $requestedAction;
     /**
@@ -134,7 +134,7 @@ abstract class Application extends Module
      */
     public $requestedParams;
     /**
-     * @var array|null list of installed Yii extensions. Each array element represents a single extension
+     * @var array list of installed Yii extensions. Each array element represents a single extension
      * with the following structure:
      *
      * ```php
@@ -517,7 +517,7 @@ abstract class Application extends Module
 
     /**
      * Returns the cache component.
-     * @return \yii\caching\CacheInterface|null the cache application component. Null if the component is not enabled.
+     * @return \yii\caching\CacheInterface the cache application component. Null if the component is not enabled.
      */
     public function getCache()
     {
@@ -643,7 +643,7 @@ abstract class Application extends Module
      * This method replaces the `exit()` function by ensuring the application life cycle is completed
      * before terminating the application.
      * @param int $status the exit status (value 0 means normal exit while other values mean abnormal exit).
-     * @param Response|null $response the response to be sent. If not set, the default application [[response]] component will be used.
+     * @param Response $response the response to be sent. If not set, the default application [[response]] component will be used.
      * @throws ExitException if the application is in testing mode
      */
     public function end($status = 0, $response = null)

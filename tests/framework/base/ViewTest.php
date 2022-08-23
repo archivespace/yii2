@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.yiiframework.com/
+ * @link http://www.yiiframework.com/
  * @copyright Copyright (c) 2008 Yii Software LLC
- * @license https://www.yiiframework.com/license/
+ * @license http://www.yiiframework.com/license/
  */
 
 namespace yiiunit\framework\base;
@@ -79,8 +79,8 @@ PHP
 
         $baseView = "{$this->testViewPath}/theme1/base.php";
         file_put_contents($baseView, <<<'PHP'
-<?php
-    echo $this->render("sub");
+<?php 
+    echo $this->render("sub"); 
 ?>
 PHP
         );

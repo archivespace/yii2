@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.yiiframework.com/
+ * @link http://www.yiiframework.com/
  * @copyright Copyright (c) 2008 Yii Software LLC
- * @license https://www.yiiframework.com/license/
+ * @license http://www.yiiframework.com/license/
  */
 
 namespace yii\helpers;
@@ -246,8 +246,8 @@ class BaseInflector
      * `huò qǔ dào dochira Ukraí̈nsʹka: g̀,ê, Srpska: đ, n̂, d̂! ¿Español?`.
      *
      * Used in [[transliterate()]].
-     * For detailed information see [unicode normalization forms](https://unicode.org/reports/tr15/#Normalization_Forms_Table)
-     * @see https://unicode.org/reports/tr15/#Normalization_Forms_Table
+     * For detailed information see [unicode normalization forms](http://unicode.org/reports/tr15/#Normalization_Forms_Table)
+     * @see http://unicode.org/reports/tr15/#Normalization_Forms_Table
      * @see transliterate()
      * @since 2.0.7
      */
@@ -261,8 +261,8 @@ class BaseInflector
      * `huo qu dao dochira Ukrainsʹka: g,e, Srpska: d, n, d! ¿Espanol?`.
      *
      * Used in [[transliterate()]].
-     * For detailed information see [unicode normalization forms](https://unicode.org/reports/tr15/#Normalization_Forms_Table)
-     * @see https://unicode.org/reports/tr15/#Normalization_Forms_Table
+     * For detailed information see [unicode normalization forms](http://unicode.org/reports/tr15/#Normalization_Forms_Table)
+     * @see http://unicode.org/reports/tr15/#Normalization_Forms_Table
      * @see transliterate()
      * @since 2.0.7
      */
@@ -277,8 +277,8 @@ class BaseInflector
      * `huo qu dao dochira Ukrainska: g,e, Srpska: d, n, d! Espanol?`.
      *
      * Used in [[transliterate()]].
-     * For detailed information see [unicode normalization forms](https://unicode.org/reports/tr15/#Normalization_Forms_Table)
-     * @see https://unicode.org/reports/tr15/#Normalization_Forms_Table
+     * For detailed information see [unicode normalization forms](http://unicode.org/reports/tr15/#Normalization_Forms_Table)
+     * @see http://unicode.org/reports/tr15/#Normalization_Forms_Table
      * @see transliterate()
      * @since 2.0.7
      */
@@ -542,7 +542,7 @@ class BaseInflector
      * of the helper.
      *
      * @param string $string input string
-     * @param string|\Transliterator|null $transliterator either a [[\Transliterator]] or a string
+     * @param string|\Transliterator $transliterator either a [[\Transliterator]] or a string
      * from which a [[\Transliterator]] can be built.
      * @return string
      * @since 2.0.7 this method is public.
@@ -628,8 +628,8 @@ class BaseInflector
      * ```
      *
      * @param array $words the words to be converted into an string
-     * @param string|null $twoWordsConnector the string connecting words when there are only two
-     * @param string|null $lastWordConnector the string connecting the last two words. If this is null, it will
+     * @param string $twoWordsConnector the string connecting words when there are only two
+     * @param string $lastWordConnector the string connecting the last two words. If this is null, it will
      * take the value of `$twoWordsConnector`.
      * @param string $connector the string connecting words other than those connected by
      * $lastWordConnector and $twoWordsConnector

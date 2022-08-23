@@ -160,7 +160,7 @@ use yii\widgets\ActiveForm;
 Чтобы увидеть всё созданное в работе, откройте в браузере следующий URL:
 
 ```
-https://hostname/index.php?r=site%2Fentry
+http://hostname/index.php?r=site%2Fentry
 ```
 
 Вы увидите страницу с формой и двумя полями для ввода. Перед каждым полем имеется подпись, которая указывает, какую

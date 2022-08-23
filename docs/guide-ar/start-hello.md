@@ -107,7 +107,7 @@ use yii\helpers\Html;
 </p>
 
 ```
-https://hostname/index.php?r=site%2Fsay&message=Hello+World
+http://hostname/index.php?r=site%2Fsay&message=Hello+World
 ```
 
 ![Hello World](../guide/images/start-hello-world.png)

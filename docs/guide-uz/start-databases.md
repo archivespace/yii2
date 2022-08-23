@@ -199,7 +199,7 @@ Keling sinab ko'raylik <span id="trying-it-out"></span>
 Yuqoridagi yozgan kodni ishlashini ko'rish uchun iltimos ushbu yo'l (url) bo'yicha o'ting:
 
 ```
-https://hostname/index.php?r=country%2Findex
+http://hostname/index.php?r=country%2Findex
 ```
 
 ![Список Стран](images/start-country-list.png)
@@ -208,7 +208,7 @@ Boshida siz ma'lumotlar omboridan beshta ma'lumotni chiqarib berganini ko'rishin
 Etibor bilan qarasangiz, URLda ham quydagi "2" sahifa chiqti.
 
 ```
-https://hostname/index.php?r=country%2Findex&page=2
+http://hostname/index.php?r=country%2Findex&page=2
 ```
 
 [[yii\data\Pagination|Pagination]] Ma'lumotlarni sahifalarga bo'lib qisman chiqarish umumiy ishlash tartibi esa quydagicha:

@@ -108,7 +108,7 @@ Conferindo <span id="trying-it-out"></span>
 Após criar a action e a view, você pode acessar a nova página através da seguinte URL:
 
 ```
-https://hostname/index.php?r=site/cumprimentar&mensagem=Olá+Mundo!
+http://hostname/index.php?r=site/cumprimentar&mensagem=Olá+Mundo!
 ```
 
 ![Olá Mundo!](images/start-hello-world.png)

@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.yiiframework.com/
+ * @link http://www.yiiframework.com/
  * @copyright Copyright (c) 2008 Yii Software LLC
- * @license https://www.yiiframework.com/license/
+ * @license http://www.yiiframework.com/license/
  */
 
 namespace yiiunit\framework\validators;
@@ -1001,7 +1001,7 @@ class DateValidatorTest extends TestCase
     /**
      * Returns true if the version of ICU is old and has a bug that makes it
      * impossible to parse two digit years properly.
-     * @see https://unicode-org.atlassian.net/browse/ICU-9836
+     * @see http://bugs.icu-project.org/trac/ticket/9836
      * @return bool
      */
     private function checkOldIcuBug()

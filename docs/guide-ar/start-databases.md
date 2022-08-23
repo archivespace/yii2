@@ -254,7 +254,7 @@ use yii\widgets\LinkPager;
 </p>
 
 ```
-https://hostname/index.php?r=country%2Findex
+http://hostname/index.php?r=country%2Findex
 ```
 
 ![Country List](../guide/images/start-country-list.png)
@@ -266,7 +266,7 @@ https://hostname/index.php?r=country%2Findex
 </p>
 
 ```
-https://hostname/index.php?r=country%2Findex&page=2
+http://hostname/index.php?r=country%2Findex&page=2
 ```
 
 <p dir="rtl">

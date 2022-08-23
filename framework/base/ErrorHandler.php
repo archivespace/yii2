@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.yiiframework.com/
+ * @link http://www.yiiframework.com/
  * @copyright Copyright (c) 2008 Yii Software LLC
- * @license https://www.yiiframework.com/license/
+ * @license http://www.yiiframework.com/license/
  */
 
 namespace yii\base;
@@ -44,7 +44,7 @@ abstract class ErrorHandler extends Component
      */
     public $memoryReserveSize = 262144;
     /**
-     * @var \Throwable|null the exception that is being handled currently.
+     * @var \Exception|null the exception that is being handled currently.
      */
     public $exception;
     /**
@@ -59,7 +59,7 @@ abstract class ErrorHandler extends Component
      */
     private $_memoryReserve;
     /**
-     * @var \Throwable from HHVM error that stores backtrace
+     * @var \Exception from HHVM error that stores backtrace
      */
     private $_hhvmException;
     /**
@@ -125,7 +125,7 @@ abstract class ErrorHandler extends Component
      *
      * This method is implemented as a PHP exception handler.
      *
-     * @param \Throwable $exception the exception that is not caught
+     * @param \Exception $exception the exception that is not caught
      */
     public function handleException($exception)
     {
@@ -338,13 +338,13 @@ abstract class ErrorHandler extends Component
 
     /**
      * Renders the exception.
-     * @param \Throwable $exception the exception to be rendered.
+     * @param \Exception|\Error|\Throwable $exception the exception to be rendered.
      */
     abstract protected function renderException($exception);
 
     /**
      * Logs the given exception.
-     * @param \Throwable $exception the exception to be logged
+     * @param \Exception $exception the exception to be logged
      * @since 2.0.3 this method is now public.
      */
     public function logException($exception)
@@ -386,7 +386,7 @@ abstract class ErrorHandler extends Component
 
     /**
      * Converts an exception into a simple string.
-     * @param \Throwable $exception the exception being converted
+     * @param \Exception|\Error|\Throwable $exception the exception being converted
      * @return string the string representation of the exception.
      */
     public static function convertExceptionToString($exception)
@@ -404,7 +404,7 @@ abstract class ErrorHandler extends Component
 
     /**
      * Converts an exception into a string that has verbose information about the exception and its trace.
-     * @param \Throwable $exception the exception being converted
+     * @param \Exception|\Error|\Throwable $exception the exception being converted
      * @return string the string representation of the exception.
      *
      * @since 2.0.14

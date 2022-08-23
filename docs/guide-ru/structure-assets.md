@@ -398,10 +398,10 @@ return [
         'assetManager' => [
             'bundles' => [
                 'app\assets\LanguageAssetBundle' => [
-                    'baseUrl' => 'https://some.cdn.com/files/i18n/en' // makes NO effect!
+                    'baseUrl' => 'http://some.cdn.com/files/i18n/en' // makes NO effect!
                 ],
                 'app\assets\LargeFileAssetBundle' => [
-                    'baseUrl' => 'https://some.cdn.com/files/large-files' // makes NO effect!
+                    'baseUrl' => 'http://some.cdn.com/files/large-files' // makes NO effect!
                 ],
             ],
         ],

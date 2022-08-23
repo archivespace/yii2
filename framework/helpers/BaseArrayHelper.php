@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.yiiframework.com/
+ * @link http://www.yiiframework.com/
  * @copyright Copyright (c) 2008 Yii Software LLC
- * @license https://www.yiiframework.com/license/
+ * @license http://www.yiiframework.com/license/
  */
 
 namespace yii\helpers;
@@ -351,7 +351,7 @@ class BaseArrayHelper
      * ```
      *
      * @param array $array the array where to look the value from
-     * @param mixed $value the value to remove from the array
+     * @param string $value the value to remove from the array
      * @return array the items that were removed from the array
      * @since 2.0.11
      */
@@ -585,7 +585,7 @@ class BaseArrayHelper
      * @param array $array
      * @param string|\Closure $from
      * @param string|\Closure $to
-     * @param string|\Closure|null $group
+     * @param string|\Closure $group
      * @return array
      */
     public static function map($array, $from, $to, $group = null)
@@ -697,7 +697,7 @@ class BaseArrayHelper
      * @param array $data data to be encoded
      * @param bool $valuesOnly whether to encode array values only. If false,
      * both the array keys and array values will be encoded.
-     * @param string|null $charset the charset that the data is using. If not set,
+     * @param string $charset the charset that the data is using. If not set,
      * [[\yii\base\Application::charset]] will be used.
      * @return array the encoded data
      * @see https://www.php.net/manual/en/function.htmlspecialchars.php
@@ -855,7 +855,7 @@ class BaseArrayHelper
         if (is_array($haystack)) {
             return in_array($needle, $haystack, $strict);
         }
-
+   
         foreach ($haystack as $value) {
             if ($strict ? $needle === $value : $needle == $value) {
                 return true;
