@@ -151,14 +151,14 @@ class Menu extends Widget
      */
     public $lastItemCssClass;
     /**
-     * @var string|null the route used to determine if a menu item is active or not.
+     * @var string the route used to determine if a menu item is active or not.
      * If not set, it will use the route of the current request.
      * @see params
      * @see isItemActive()
      */
     public $route;
     /**
-     * @var array|null the parameters used to determine if a menu item is active or not.
+     * @var array the parameters used to determine if a menu item is active or not.
      * If not set, it will use `$_GET`.
      * @see route
      * @see isItemActive()

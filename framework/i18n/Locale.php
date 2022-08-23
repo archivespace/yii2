@@ -23,7 +23,7 @@ use yii\base\InvalidConfigException;
 class Locale extends Component
 {
     /**
-     * @var string|null the locale ID.
+     * @var string the locale ID.
      * If not set, [[\yii\base\Application::language]] will be used.
      */
     public $locale;
