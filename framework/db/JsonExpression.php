@@ -69,7 +69,7 @@ class JsonExpression implements ExpressionInterface, \JsonSerializable
     }
 
     /**
-     * @return string|null the type of JSON
+     * @return null|string the type of JSON
      * @see type
      */
     public function getType()

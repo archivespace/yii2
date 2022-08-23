@@ -1122,7 +1122,7 @@ class Request extends \yii\base\Request
 
     /**
      * Returns the server name.
-     * @return string|null server name, null if not available
+     * @return string server name, null if not available
      */
     public function getServerName()
     {
@@ -1776,7 +1776,7 @@ class Request extends \yii\base\Request
 
     /**
      * Loads the CSRF token from cookie or session.
-     * @return string|null the CSRF token loaded from cookie or session. Null is returned if the cookie or session
+     * @return string the CSRF token loaded from cookie or session. Null is returned if the cookie or session
      * does not have CSRF token.
      */
     protected function loadCsrfToken()
@@ -1806,7 +1806,7 @@ class Request extends \yii\base\Request
     }
 
     /**
-     * @return string|null the CSRF token sent via [[CSRF_HEADER]] by browser. Null is returned if no such header is sent.
+     * @return string the CSRF token sent via [[CSRF_HEADER]] by browser. Null is returned if no such header is sent.
      */
     public function getCsrfTokenFromHeader()
     {
@@ -1839,7 +1839,7 @@ class Request extends \yii\base\Request
      * Note that the method will NOT perform CSRF validation if [[enableCsrfValidation]] is false or the HTTP method
      * is among GET, HEAD or OPTIONS.
      *
-     * @param string|null $clientSuppliedToken the user-provided CSRF token to be validated. If null, the token will be retrieved from
+     * @param string $clientSuppliedToken the user-provided CSRF token to be validated. If null, the token will be retrieved from
      * the [[csrfParam]] POST field or HTTP header.
      * This parameter is available since version 2.0.4.
      * @return bool whether CSRF token is valid. If [[enableCsrfValidation]] is false, this method will return true.
