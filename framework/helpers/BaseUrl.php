@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.yiiframework.com/
+ * @link http://www.yiiframework.com/
  * @copyright Copyright (c) 2008 Yii Software LLC
- * @license https://www.yiiframework.com/license/
+ * @license http://www.yiiframework.com/license/
  */
 
 namespace yii\helpers;
@@ -71,7 +71,7 @@ class BaseUrl
      * // /index.php?r=site%2Findex&src=ref1#name
      * echo Url::toRoute(['site/index', 'src' => 'ref1', '#' => 'name']);
      *
-     * // https://www.example.com/index.php?r=site%2Findex
+     * // http://www.example.com/index.php?r=site%2Findex
      * echo Url::toRoute('site/index', true);
      *
      * // https://www.example.com/index.php?r=site%2Findex
@@ -186,7 +186,7 @@ class BaseUrl
      * // images/logo.gif
      * echo Url::to('images/logo.gif');
      *
-     * // https://www.example.com/images/logo.gif
+     * // http://www.example.com/images/logo.gif
      * echo Url::to('@web/images/logo.gif', true);
      *
      * // https://www.example.com/images/logo.gif

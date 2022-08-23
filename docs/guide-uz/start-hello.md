@@ -84,7 +84,7 @@ Ishlatib ko'ramiz <span id="trying-it-out"></span>
 Yuqorida aytib o'tilgan amalrni va amalar ko'rinishlarini yaratib bo'ganingizdan so'ng siz usu URL bo'yicha o'tishingiz mumkin:
 
 ```
-https://hostname/index.php?r=site%2Fsay&message=Salom+dunyo
+http://hostname/index.php?r=site%2Fsay&message=Salom+dunyo
 ```
 
 ![Salom, dunyo](images/start-hello-world.png)

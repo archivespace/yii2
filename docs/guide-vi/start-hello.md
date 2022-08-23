@@ -101,7 +101,7 @@ Trying it Out <span id="trying-it-out"></span>
 Sau khi đã tạo action và view, bạn có thể truy cập vào trang bởi việc truy cập vào URL sau:
 
 ```
-https://hostname/index.php?r=site/say&message=Hello+World
+http://hostname/index.php?r=site/say&message=Hello+World
 ```
 
 ![Hello World](images/start-hello-world.png)

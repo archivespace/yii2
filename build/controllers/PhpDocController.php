@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.yiiframework.com/
+ * @link http://www.yiiframework.com/
  * @copyright Copyright (c) 2008 Yii Software LLC
- * @license https://www.yiiframework.com/license/
+ * @license http://www.yiiframework.com/license/
  */
 
 namespace yii\build\controllers;
@@ -293,9 +293,9 @@ class PhpDocController extends Controller
             $lines = array_merge([
                 '<?php',
                 '/**',
-                ' * @link https://www.yiiframework.com/',
+                ' * @link http://www.yiiframework.com/',
                 ' * @copyright Copyright (c) 2008 Yii Software LLC',
-                ' * @license https://www.yiiframework.com/license/',
+                ' * @license http://www.yiiframework.com/license/',
                 ' */',
                 '',
                 $namespaceLine,

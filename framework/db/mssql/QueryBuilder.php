@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.yiiframework.com/
+ * @link http://www.yiiframework.com/
  * @copyright Copyright (c) 2008 Yii Software LLC
- * @license https://www.yiiframework.com/license/
+ * @license http://www.yiiframework.com/license/
  */
 
 namespace yii\db\mssql;
@@ -519,7 +519,7 @@ class QueryBuilder extends \yii\db\QueryBuilder
     /**
      * {@inheritdoc}
      * @see https://docs.microsoft.com/en-us/sql/t-sql/statements/merge-transact-sql
-     * @see https://weblogs.sqlteam.com/dang/2009/01/31/upsert-race-condition-with-merge/
+     * @see http://weblogs.sqlteam.com/dang/archive/2009/01/31/UPSERT-Race-Condition-With-MERGE.aspx
      */
     public function upsert($table, $insertColumns, $updateColumns, &$params)
     {

@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.yiiframework.com/
+ * @link http://www.yiiframework.com/
  * @copyright Copyright (c) 2008 Yii Software LLC
- * @license https://www.yiiframework.com/license/
+ * @license http://www.yiiframework.com/license/
  */
 
 namespace yii\db;
@@ -160,7 +160,7 @@ class ColumnSchema extends BaseObject
                     // https://github.com/yiisoft/yii2/issues/14663
                     return $value;
                 }
-
+                
                 if (PHP_VERSION_ID >= 80100 && is_object($value) && $value instanceof \BackedEnum) {
                     return (string) $value->value;
                 }

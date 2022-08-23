@@ -88,7 +88,7 @@ Próba <span id="trying-it-out"></span>
 Po utworzeniu akcji oraz widoku możesz uzyskać dostęp do nowej strony przez przejście pod podany adres URL:
 
 ```
-https://hostname/index.php?r=site%2Fsay&message=Hello+World
+http://hostname/index.php?r=site%2Fsay&message=Hello+World
 ```
 
 ![Witaj świecie](images/start-hello-world.png)

@@ -187,7 +187,7 @@ use yii\widgets\ActiveForm;
 Щоб побачити, як це працює, відкрийте в браузері наступний URL:
 
 ```
-https://hostname/index.php?r=site%2Fentry
+http://hostname/index.php?r=site%2Fentry
 ```
 
 Ви побачите сторінку з формою і двома полями для заповнення. Перед кожним полем є надпис, який вказує, яку саме

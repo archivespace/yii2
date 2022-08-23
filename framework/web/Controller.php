@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.yiiframework.com/
+ * @link http://www.yiiframework.com/
  * @copyright Copyright (c) 2008 Yii Software LLC
- * @license https://www.yiiframework.com/license/
+ * @license http://www.yiiframework.com/license/
  */
 
 namespace yii\web;
@@ -239,7 +239,7 @@ class Controller extends \yii\base\Controller
      *
      * @param string|array $url the URL to be redirected to. This can be in one of the following formats:
      *
-     * - a string representing a URL (e.g. "https://example.com")
+     * - a string representing a URL (e.g. "http://example.com")
      * - a string representing a URL alias (e.g. "@example.com")
      * - an array in the format of `[$route, ...name-value pairs...]` (e.g. `['site/index', 'ref' => 1]`)
      *   [[Url::to()]] will be used to convert the array into a URL.
